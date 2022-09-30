@@ -1,0 +1,61 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'); 
+
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: #6f4e373d;
+}
+
+header {
+    text-align: center;
+    margin: 10px;
+    
+}
+header > h1 {
+    font-size: 7em;
+    margin: 0px;
+   
+}
+header > p {
+    font-size: 2em;
+    margin: 0px;
+   
+}
+
+main > section > p {
+    font-size: 2.2em;
+    text-align: center;
+    padding-top: 30px;
+}
+
+div {
+    background-color: whitesmoke;    
+    border: solid 1px black;
+    margin: 10px;
+    box-shadow: 1px 1px 2px black;
+   
+}
+
+#americano, #mocha, #macchiato, #cappuccino, #vanilla  {
+    text-align: center;
+    font-size: 1.7em;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cafes {
+    font-size: 2em;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
